@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keepfit</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section class="header">
+        <div id="toggle" onclick="sidebar()">+</div>
+        <div class="logo"><p>KeepFit</p></div>
+        <div class="menu" >
+            <nav class="sidebar">
+                <ul class="nav-bar">
+                    <li class="nav-links"><a href="#">Home</a></li>
+                    <li class="nav-links"><a href="#">About</a></li>
+                    <li class="nav-links"><a href="#">Classes</a></li>
+                    <li class="nav-links"><a href="#">Teachers</a></li>
+                    <li class="nav-links"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="btn"><button>BECOME A MEMBER</button></div>
+    </section>
+     <div id="sidebar">
+        <ul id="sidebarLinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Teachers</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+     <div class="slider">
+        <div class="slides">
+            <img  src="images/image2.jpg" class="img">
+            <img src="images/image3.jpg" class="img">
+            <img src="images/image1.jpg" class="img">
+        </div> 
+    </div>
+     <div class="flexbox1">
+         <div id="flex-img"><img src="images/image4.jpg"></div>
+        <div id="description">
+            <h1>WE ARE SQUAT</h1>
+            <h1 class="higlight">HERE IS WHO WE ARE</h1>
+            <p>TheFitness.Wiki is the official wiki of r/Fitness and r/weightroom on Reddit.
+                Its goal is to provide a high quality hub for information and advice about achieving
+                physical fitness goals– compiled and organized from the best threads and 
+                advice from both communities.
+            </p>
+            <p class="readMore"><a href="#" >- FIND OUT MORE</a></p>
+        </div>
+    </div>
+    <div class="flexbox2">
+        <div class="flex-item one">
+            <img src="images/health.png" alt="">
+            <h3>Health</h1>
+            <p>Its goal is to provide a high quality hub for information and advice about achieving
+                physical fitness goals– compiled and organized from the best threads and 
+                advice from both communities.
+            </p>
+        </div>
+        <div class="flex-item two" >
+            <img src="images/dumbell.png" alt="">
+            <h3>Workout</h1>
+            <p>
+                Its goal is to provide a high quality hub for information and advice about achieving
+                physical fitness goals– compiled and organized from the best threads and 
+                advice from both communities.
+            </p>
+        </div>
+        <div class="flex-item three">
+            <img src="images/headphone.png" alt="">
+            <h3>Fun and Adventure</h1>
+            <p>
+                Its goal is to provide a high quality hub for information and advice about achieving
+                physical fitness goals– compiled and organized from the best threads and 
+                advice from both communities.
+            </p>
+        </div>
+    </div>
+    <div class="flexbox3">
+       <div  class="service">
+           <h1>OUR</h1>
+           <h1 class="higlight">SERVICES</h1>
+           <p>Fitness is defined as the quality or state of being fit. Around 1950, perhaps consistent
+                with the Industrial Revolution and the treatise of World War II, the term "fitness" 
+                increased in western vernacular by a factor of ten. The modern definition of 
+               
+           </p>
+           <p class="readMore"><a href="#" >- FIND OUT MORE</a></p>
+       </div>
+       <div id="flex-img" class="serviceImg"><img src="images/image5.jpg"></div>
+   </div>
+   <div class="flexbox4">
+    <div  class="classImg"><img src="images/image7.jpg"></div>
+    <div  class="service">
+        <h1>OUR</h1>
+        <h1 class="higlight">CLASSES</h1>
+        <p>Fitness is defined as the quality or state of being fit. Around 1950, perhaps consistent
+             with the Industrial Revolution and the treatise of World War II, the term "fitness" 
+             increased in western vernacular by a factor of ten. The modern definition of 
+            
+        </p>
+        <p class="readMore"><a href="#" >- FIND OUT MORE</a></p>
+    </div>
+   </div>
+    <div class="flexbox5">
+        <div  class="service">
+            <h3 class="des">Voluptatem accusantium</h1>
+                <br>
+            <p>Fitness is defined as the quality or state of being fit. Around 1950, perhaps consistent
+                 with the Industrial Revolution and the treatise of World War II, the term "fitness" 
+                 increased in western vernacular by a factor of ten. The modern definition of 
+                
+            </p>
+            <p class="readMore"><a href="#" >- FIND OUT MORE</a></p>
+        </div>
+        <div  class="desImg"><img src="images/image9.jpg"></div>
+    </div> 
+    <div class="flexbox6" onmouseover="number()">
+        <div  class="desImg" id="aboutImg"><img src="images/about.jpg"></div>
+        <div  class="service">
+            <h1 class="about">ABOUT</h1>
+            <h1 class="us">US</h1>
+                <br>
+            <p>Fitness is defined as the quality or state of being fit. Around 1950, perhaps consistent
+                 with the Industrial Revolution and the treatise of World War II, the term "fitness" 
+                 increased in western vernacular by a factor of ten. The modern definition of   
+                
+            </p>
+            <p class="readMore"><a href="#" id="anchor" >- FIND OUT MORE</a></p>
+        </div>
+    </div>
+    <div class="count" onmouseover="number()" >
+        <div class="countItem">
+            <img src="images/clock.png">
+            <li class="clock"  value="1002" >0</li>
+            <p class="topic">Working Hours</p>
+        </div>
+        <div class="countItem">
+            <img src="images/heart.png">
+            <li class="clock"  value="500" >0</li>
+            <p class="topic"> Happy Clients</p>
+        </div>
+        <div class="countItem">
+            <img src="images/like.png">
+            <li class="clock"  value="356" >0</li>
+            <p class="topic">Sucess stories</p>
+        </div>
+        <div class="countItem">
+            <img src="images/diamond.png">
+            <li class="clock"  value="134" >0</li>
+            <p class="topic"> Perfect bodies</p>
+        </div>
+    </div>
+    <div class="flexbox7">
+        <div class="flexItems Keepfit">
+            <h2>KeepFit</h2>
+            <p>
+                increased in western vernacular by a factor of ten. The modern definition of 
+                 Fitness is defined as the quality or state of being fit.
+            </p>
+        </div>
+        <div class="flexItems Menus">
+            <p><b>Menu</b></p>
+            <div class="MenuItems">
+                <p><a href="#">Home</a></p>
+                <p><a href="#">About</a></p>
+                <p><a href="#">Classes</a></p>
+                <p><a href="#">Teachers</a></p>
+            </div>
+        </div>
+        <div class="flexItems info">
+            <p><b>Info</b></p>
+            <p><a href="#">Contact Us</a></p>
+                <p><a href="#">Careers</a></p>
+                <p><a href="#">Privacy and Policy</a></p>
+        </div>
+
+        <div class="flexItems contact">
+            <h3>Connect With Us</h3>
+            <div class="inbox">
+                <input type="email" placeholder="Email address here">
+                <p>></p>
+            </div>
+            <div class="socialMedia">
+                <a href="#"><img src="images/facebook.png" alt=""></a>
+                <a href="#"><img src="images/twitter.png" alt=""></a>
+                <a href="#"><img src="images/instagram.png" alt=""></a>
+                <a href="#"><img src="images/pintest.png" alt=""></a>
+            </div>
+        </div>
+        
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; 2020. All Right Reserved By KeepFit </p>
+    </div>
+
+<script  src="main.js"></script>
+
+</body>
+</html>
